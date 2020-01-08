@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    android:layout_height="wrap_content">
+
+    <!--<com.jg.sectest.BackEditText-->
+    <!--android:padding="5dp"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:id="@+id/dialog_comment_et"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/comment_dialog_et_selector"-->
+    <!--android:gravity="left|top"-->
+    <!--android:hint="请输入评论内容..."-->
+    <!--android:paddingLeft="15dp"-->
+    <!--android:textColor="#808080"-->
+    <!--android:textColorHint="#929292"-->
+    <!--android:textSize="14sp" />-->
+    <EditText
+        android:id="@+id/dialog_comment_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="评论"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_margin="5dp"
+        android:textColorHint="#FF666666"
+        android:textSize="14sp" />
+ <TextView
+     android:id="@+id/tv"
+     android:gravity="center"
+     android:textColor="#333"
+     android:text="发送"
+     android:layout_width="match_parent"
+     android:layout_height="50dp" />
+</LinearLayout>
